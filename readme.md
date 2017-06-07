@@ -1,7 +1,10 @@
-# Korg nanoKontrol2 Remote Support
+# Korg nanoKontrolStudio Remote Support
 
 Propellerhead Software  
 Carlos Eduardo, SP/Brazil, <carlosedp@gmail.com>  
+maghul
+
+This is a clone of carlosdp/Reason-KorgNanoKontrol2-Remote repository adapted to the Korg nanoKontrol Studio control surface.
 
 This version includes soft pickup for the knobs and sliders. This way the analog controls only act when the value on the knob matches the value of the control it is assigned so it is prevented that the control "jumps" when you modify a knob.
 
@@ -19,9 +22,9 @@ The files in the Remote directory should be copied into your user's Remote direc
 
 Carefully copy all of these files, strictly maintaining this directory structure:
 
-    Remote/Codecs/Lua Codecs/Korg/nanoKontrol2.luacodec
-    Remote/Codecs/Lua Codecs/Korg/nanoKontrol2.lua
-    Remote/Codecs/Lua Codecs/Korg/nanoKontrol2.png
+    Remote/Codecs/Lua Codecs/Korg/nanoKontrolStudio.luacodec
+    Remote/Codecs/Lua Codecs/Korg/nanoKontrolStudio.lua
+    Remote/Codecs/Lua Codecs/Korg/nanoKontrolStudio.png
     Remote/Maps/Korg/nanoKONTROL2.remotemap
 
 Now restart Reason so that it sees the new files. Go into Preferences and select your new MIDI controller - you can tell Reason to try and auto-detect the controller, or you can add it manually.
