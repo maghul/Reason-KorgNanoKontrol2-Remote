@@ -259,7 +259,7 @@ end
 function remote_prepare_for_use()
 -- Sets the nanoKontrol2 to Native Mode
     local retEvents={
-        remote.make_midi("F0 42 40 00 01 13 00 00 00 01 F7"),
+        remote.make_midi("f0 42 40 00 01 37 02 00 00 00 01 f7"),
     }
     return retEvents
 end
@@ -267,7 +267,7 @@ end
 function remote_release_from_use()
 -- Turns Native Mode off
     local retEvents={
-        remote.make_midi("F0 42 40 00 01 13 00 00 00 00 F7"),
+        remote.make_midi("f0 42 40 00 01 37 02 00 00 00 00 f7"),
     }
     return retEvents
 end
