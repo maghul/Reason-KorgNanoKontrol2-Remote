@@ -7,21 +7,21 @@ Map Version	1.0.0
 
 Scope	Propellerheads	Combinator
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
-Map	Button S8		Select Previous Patch
-Map	Button M8		Select Next Patch
+Map	Button Solo 8		Select Previous Patch
+Map	Button Mute 8		Select Next Patch
 
 Map	Knob 1		Rotary 1
 Map	Knob 2		Rotary 2
 Map	Knob 3		Rotary 3
 Map	Knob 4		Rotary 4
-Map	Button S1		Button 1
-Map	Button S2		Button 2
-Map	Button S3		Button 3
-Map	Button S4		Button 4
+Map	Button Solo 1		Button 1
+Map	Button Solo 2		Button 2
+Map	Button Solo 3		Button 3
+Map	Button Solo 4		Button 4
 
-Map	Button R1		Enabled
-Map	Button M1		Bypass All FX
-Map	Button R8		Run Pattern Devices
+Map	Button Rec 1		Enabled
+Map	Button Mute 1		Bypass All FX
+Map	Button Rec 8		Run Pattern Devices
 
 
 
@@ -52,29 +52,29 @@ Map	Knob 5		Channel 5 Pan			ch1-7
 Map	Knob 6		Channel 6 Pan			ch1-7
 Map	Knob 7		Channel 7 Pan			ch1-7
 
-Map	Button S1		Channel 1 Solo			ch1-7
-Map	Button S2		Channel 2 Solo			ch1-7
-Map	Button S3		Channel 3 Solo			ch1-7
-Map	Button S4		Channel 4 Solo			ch1-7
-Map	Button S5		Channel 5 Solo			ch1-7
-Map	Button S6		Channel 6 Solo			ch1-7
-Map	Button S7		Channel 7 Solo			ch1-7
+Map	Button Solo 1		Channel 1 Solo			ch1-7
+Map	Button Solo 2		Channel 2 Solo			ch1-7
+Map	Button Solo 3		Channel 3 Solo			ch1-7
+Map	Button Solo 4		Channel 4 Solo			ch1-7
+Map	Button Solo 5		Channel 5 Solo			ch1-7
+Map	Button Solo 6		Channel 6 Solo			ch1-7
+Map	Button Solo 7		Channel 7 Solo			ch1-7
 
-Map	Button M1		Channel 1 Mute			ch1-7
-Map	Button M2		Channel 2 Mute			ch1-7
-Map	Button M3		Channel 3 Mute			ch1-7
-Map	Button M4		Channel 4 Mute			ch1-7
-Map	Button M5		Channel 5 Mute			ch1-7
-Map	Button M6		Channel 6 Mute			ch1-7
-Map	Button M7		Channel 7 Mute			ch1-7
+Map	Button Mute 1		Channel 1 Mute			ch1-7
+Map	Button Mute 2		Channel 2 Mute			ch1-7
+Map	Button Mute 3		Channel 3 Mute			ch1-7
+Map	Button Mute 4		Channel 4 Mute			ch1-7
+Map	Button Mute 5		Channel 5 Mute			ch1-7
+Map	Button Mute 6		Channel 6 Mute			ch1-7
+Map	Button Mute 7		Channel 7 Mute			ch1-7
 
-Map	Button R1		Channel 1 EQ On/Off			ch1-7
-Map	Button R2		Channel 2 EQ On/Off			ch1-7
-Map	Button R3		Channel 3 EQ On/Off			ch1-7
-Map	Button R4		Channel 4 EQ On/Off			ch1-7
-Map	Button R5		Channel 5 EQ On/Off			ch1-7
-Map	Button R6		Channel 6 EQ On/Off			ch1-7
-Map	Button R7		Channel 7 EQ On/Off			ch1-7
+Map	Button Rec 1		Channel 1 EQ On/Off			ch1-7
+Map	Button Rec 2		Channel 2 EQ On/Off			ch1-7
+Map	Button Rec 3		Channel 3 EQ On/Off			ch1-7
+Map	Button Rec 4		Channel 4 EQ On/Off			ch1-7
+Map	Button Rec 5		Channel 5 EQ On/Off			ch1-7
+Map	Button Rec 6		Channel 6 EQ On/Off			ch1-7
+Map	Button Rec 7		Channel 7 EQ On/Off			ch1-7
 
 
 Map	Slider 1		Channel 8 Level			ch8-14
@@ -93,29 +93,29 @@ Map	Knob 5		Channel 12 Pan			ch8-14
 Map	Knob 6		Channel 13 Pan			ch8-14
 Map	Knob 7		Channel 14 Pan			ch8-14
 
-Map	Button M1		Channel 8 Mute			ch8-14
-Map	Button M2		Channel 9 Mute			ch8-14
-Map	Button M3		Channel 10 Mute			ch8-14
-Map	Button M4		Channel 11 Mute			ch8-14
-Map	Button M5		Channel 12 Mute			ch8-14
-Map	Button M6		Channel 13 Mute			ch8-14
-Map	Button M7		Channel 14 Mute			ch8-14
+Map	Button Mute 1		Channel 8 Mute			ch8-14
+Map	Button Mute 2		Channel 9 Mute			ch8-14
+Map	Button Mute 3		Channel 10 Mute			ch8-14
+Map	Button Mute 4		Channel 11 Mute			ch8-14
+Map	Button Mute 5		Channel 12 Mute			ch8-14
+Map	Button Mute 6		Channel 13 Mute			ch8-14
+Map	Button Mute 7		Channel 14 Mute			ch8-14
 
-Map	Button S1		Channel 8 Solo			ch8-14
-Map	Button S2		Channel 9 Solo			ch8-14
-Map	Button S3		Channel 10 Solo			ch8-14
-Map	Button S4		Channel 11 Solo			ch8-14
-Map	Button S5		Channel 12 Solo			ch8-14
-Map	Button S6		Channel 13 Solo			ch8-14
-Map	Button S7		Channel 14 Solo			ch8-14
+Map	Button Solo 1		Channel 8 Solo			ch8-14
+Map	Button Solo 2		Channel 9 Solo			ch8-14
+Map	Button Solo 3		Channel 10 Solo			ch8-14
+Map	Button Solo 4		Channel 11 Solo			ch8-14
+Map	Button Solo 5		Channel 12 Solo			ch8-14
+Map	Button Solo 6		Channel 13 Solo			ch8-14
+Map	Button Solo 7		Channel 14 Solo			ch8-14
 
-Map	Button R1		Channel 8 EQ On/Off			ch8-14
-Map	Button R2		Channel 9 EQ On/Off			ch8-14
-Map	Button R3		Channel 10 EQ On/Off			ch8-14
-Map	Button R4		Channel 11 EQ On/Off			ch8-14
-Map	Button R5		Channel 12 EQ On/Off			ch8-14
-Map	Button R6		Channel 13 EQ On/Off			ch8-14
-Map	Button R7		Channel 14 EQ On/Off			ch8-14
+Map	Button Rec 1		Channel 8 EQ On/Off			ch8-14
+Map	Button Rec 2		Channel 9 EQ On/Off			ch8-14
+Map	Button Rec 3		Channel 10 EQ On/Off			ch8-14
+Map	Button Rec 4		Channel 11 EQ On/Off			ch8-14
+Map	Button Rec 5		Channel 12 EQ On/Off			ch8-14
+Map	Button Rec 6		Channel 13 EQ On/Off			ch8-14
+Map	Button Rec 7		Channel 14 EQ On/Off			ch8-14
 
 
 
@@ -128,7 +128,7 @@ Map	Set Marker Button		Knobs=Pans			Sends
 
 Map	Slider 8		Master Level
 Map	Knob 8		Aux Return Level
-Map	Button S8		Aux Pre/Post
+Map	Button Solo 8		Aux Pre/Post
 
 Map	Slider 1		Channel 1 Level
 Map	Slider 2		Channel 2 Level
@@ -151,19 +151,19 @@ Map	Knob 4		Channel 4 Aux Send			Sends
 Map	Knob 5		Channel 5 Aux Send			Sends
 Map	Knob 6		Channel 6 Aux Send			Sends
 
-Map	Button M1		Channel 1 Mute
-Map	Button M2		Channel 2 Mute
-Map	Button M3		Channel 3 Mute
-Map	Button M4		Channel 4 Mute
-Map	Button M5		Channel 5 Mute
-Map	Button M6		Channel 6 Mute
+Map	Button Mute 1		Channel 1 Mute
+Map	Button Mute 2		Channel 2 Mute
+Map	Button Mute 3		Channel 3 Mute
+Map	Button Mute 4		Channel 4 Mute
+Map	Button Mute 5		Channel 5 Mute
+Map	Button Mute 6		Channel 6 Mute
 
-Map	Button S1		Channel 1 Solo
-Map	Button S2		Channel 2 Solo
-Map	Button S3		Channel 3 Solo
-Map	Button S4		Channel 4 Solo
-Map	Button S5		Channel 5 Solo
-Map	Button S6		Channel 6 Solo
+Map	Button Solo 1		Channel 1 Solo
+Map	Button Solo 2		Channel 2 Solo
+Map	Button Solo 3		Channel 3 Solo
+Map	Button Solo 4		Channel 4 Solo
+Map	Button Solo 5		Channel 5 Solo
+Map	Button Solo 6		Channel 6 Solo
 
 
 
@@ -174,27 +174,27 @@ Define Group	Variation	Filters	Osc & Mod
 Map	Set Marker Button		Variation=Osc & Mod			Filters
 Map	Set Marker Button		Variation=Filters			Osc & Mod
 
-Map	Button S8		Select Previous Patch
-Map	Button M8		Select Next Patch
+Map	Button Solo 8		Select Previous Patch
+Map	Button Mute 8		Select Next Patch
 
-Map	Button S1		Filter Type
-Map	Button S2		Filter Env Invert
-Map	Button S3		Filter Link Freq On/Off
-Map	Button S4		Filter2 On/Off
-Map	Button S5		Mod Env Dest
-Map	Button S6		Mod Env Invert
-Map	Button S7		Key Mode
+Map	Button Solo 1		Filter Type
+Map	Button Solo 2		Filter Env Invert
+Map	Button Solo 3		Filter Link Freq On/Off
+Map	Button Solo 4		Filter2 On/Off
+Map	Button Solo 5		Mod Env Dest
+Map	Button Solo 6		Mod Env Invert
+Map	Button Solo 7		Key Mode
 
-Map	Button M1		Osc1 Phase Mode
-Map	Button M2		Osc2 On/Off
-Map	Button M3		Osc2 Phase Mode
-Map	Button M4		Ring Mod
-Map	Button M5		Noise On/Off
+Map	Button Mute 1		Osc1 Phase Mode
+Map	Button Mute 2		Osc2 On/Off
+Map	Button Mute 3		Osc2 Phase Mode
+Map	Button Mute 4		Ring Mod
+Map	Button Mute 5		Noise On/Off
 
-Map	Button R1		LFO1 Wave
-Map	Button R2		LFO1 Dest
-Map	Button R3		LFO Sync Enable
-Map	Button R4		LFO2 Dest
+Map	Button Rec 1		LFO1 Wave
+Map	Button Rec 2		LFO1 Dest
+Map	Button Rec 3		LFO Sync Enable
+Map	Button Rec 4		LFO2 Dest
 
 Map	Knob 1		Filter Freq			Filters
 Map	Knob 2		Filter Res			Filters
@@ -249,18 +249,18 @@ Map	Set Marker Button		Variation=Filters			Step Sequencer
 Map	Left Marker Button		Steps=1-8
 Map	Right Marker Button		Steps=9-16
 
-Map	Button S8		Select Previous Patch
-Map	Button M8		Select Next Patch
+Map	Button Solo 8		Select Previous Patch
+Map	Button Mute 8		Select Next Patch
 
 Map	Knob 1		Rotary 1
 Map	Knob 2		Rotary 2
-Map	Button S1		Button 1
-Map	Button S2		Button 2
+Map	Button Solo 1		Button 1
+Map	Button Solo 2		Button 2
 
-Map	Button M1		Key Mode
-Map	Button M2		Portamento Mode
-Map	Button M3		Chorus On
-Map	Button M4		Delay On
+Map	Button Mute 1		Key Mode
+Map	Button Mute 2		Portamento Mode
+Map	Button Mute 3		Chorus On
+Map	Button Mute 4		Delay On
 
 //Map	Slider 9		Master Level
 
@@ -272,16 +272,16 @@ Map	Knob 7		Filter 2 Res			Filters
 Map	Knob 8		Filter 2 Env Amount			Filters
 //Map	Knob 9		Shaper Drive			Filters
 
-Map	Button S3		Filter 1 Type			Filters
-Map	Button S4		Filter 1 Env Invert			Filters
+Map	Button Solo 3		Filter 1 Type			Filters
+Map	Button Solo 4		Filter 1 Env Invert			Filters
 
-Map	Button S5		Filter2ToAmplifier Enable			Filters
-Map	Button S6		Filter 2 Type			Filters
-Map	Button S7		Filter 2 Env Invert			Filters
+Map	Button Solo 5		Filter2ToAmplifier Enable			Filters
+Map	Button Solo 6		Filter 2 Type			Filters
+Map	Button Solo 7		Filter 2 Env Invert			Filters
 
-Map	Button M5		Shaper On			Filters
-Map	Button M6		Shaper Type			Filters
-Map	Button M7		Shaper Output Dest			Filters
+Map	Button Mute 5		Shaper On			Filters
+Map	Button Mute 6		Shaper Type			Filters
+Map	Button Mute 7		Shaper Output Dest			Filters
 
 Map	Slider 1		Filter Env Attack			Filters
 Map	Slider 2		Filter Env Decay			Filters
@@ -299,14 +299,14 @@ Map	Knob 6		Osc 1 And 2 Level			Osc & Mod
 Map	Knob 7		Osc 1 And 2 Balance			Osc & Mod
 Map	Knob 8		Osc 3 Level			Osc & Mod
 
-Map	Button S3		Osc 1 Type			Osc & Mod
-Map	Button S4		Osc 2 Type			Osc & Mod
-Map	Button S5		Osc 3 Type			Osc & Mod
-Map	Button S6		Osc 2 Sync To Osc 1			Osc & Mod
-Map	Button S7		Osc 3 Sync To Osc 1			Osc & Mod
+Map	Button Solo 3		Osc 1 Type			Osc & Mod
+Map	Button Solo 4		Osc 2 Type			Osc & Mod
+Map	Button Solo 5		Osc 3 Type			Osc & Mod
+Map	Button Solo 6		Osc 2 Sync To Osc 1			Osc & Mod
+Map	Button Solo 7		Osc 3 Sync To Osc 1			Osc & Mod
 
-Map	Button M5		LFO 1 Tempo Sync			Osc & Mod
-Map	Button M6		LFO 2 Tempo Sync			Osc & Mod
+Map	Button Mute 5		LFO 1 Tempo Sync			Osc & Mod
+Map	Button Mute 6		LFO 2 Tempo Sync			Osc & Mod
 
 Map	Slider 1		LFO 1 Rate			Osc & Mod
 Map	Slider 2		LFO 1 Waveform			Osc & Mod
@@ -317,18 +317,18 @@ Map	Slider 6		Mod Env Attack			Osc & Mod
 Map	Slider 7		Mod Env Decay			Osc & Mod
 Map	Slider 8		Mod Env Release			Osc & Mod
 
-Map	Button R1		Osc 1 To Filter 1 Enable
-Map	Button R2		Osc 2 To Filter 1 Enable
-Map	Button R3		Osc 3 To Filter 1 Enable
-Map	Button R4		Osc 1 To Filter 2 Enable
-Map	Button R5		Osc 2 To Filter 2 Enable
-Map	Button R6		Osc 3 To Filter 2 Enable
+Map	Button Rec 1		Osc 1 To Filter 1 Enable
+Map	Button Rec 2		Osc 2 To Filter 1 Enable
+Map	Button Rec 3		Osc 3 To Filter 1 Enable
+Map	Button Rec 4		Osc 1 To Filter 2 Enable
+Map	Button Rec 5		Osc 2 To Filter 2 Enable
+Map	Button Rec 6		Osc 3 To Filter 2 Enable
 
 //Map	Knob 9		Step Sequencer Rate
-Map	Button M5		Step Sequencer Octave Range
-Map	Button M6		Step Sequencer Synced
-Map	Button R7		Step Sequencer Run Mode
-Map	Button R8		Step Sequencer Run
+Map	Button Mute 5		Step Sequencer Octave Range
+Map	Button Mute 6		Step Sequencer Synced
+Map	Button Rec 7		Step Sequencer Run Mode
+Map	Button Rec 8		Step Sequencer Run
 
 
 Map	Knob 1		Pattern Step Note 1			Step Sequencer	1-8
@@ -340,14 +340,14 @@ Map	Knob 6		Pattern Step Note 6			Step Sequencer	1-8
 Map	Knob 7		Pattern Step Note 7			Step Sequencer	1-8
 Map	Knob 8		Pattern Step Note 8			Step Sequencer	1-8
 
-Map	Button S1		Pattern Step Gate 1			Step Sequencer	1-8
-Map	Button S2		Pattern Step Gate 2			Step Sequencer	1-8
-Map	Button S3		Pattern Step Gate 3			Step Sequencer	1-8
-Map	Button S4		Pattern Step Gate 4			Step Sequencer	1-8
-Map	Button S5		Pattern Step Gate 5			Step Sequencer	1-8
-Map	Button S6		Pattern Step Gate 6			Step Sequencer	1-8
-Map	Button S7		Pattern Step Gate 7			Step Sequencer	1-8
-Map	Button S8		Pattern Step Gate 8			Step Sequencer	1-8
+Map	Button Solo 1		Pattern Step Gate 1			Step Sequencer	1-8
+Map	Button Solo 2		Pattern Step Gate 2			Step Sequencer	1-8
+Map	Button Solo 3		Pattern Step Gate 3			Step Sequencer	1-8
+Map	Button Solo 4		Pattern Step Gate 4			Step Sequencer	1-8
+Map	Button Solo 5		Pattern Step Gate 5			Step Sequencer	1-8
+Map	Button Solo 6		Pattern Step Gate 6			Step Sequencer	1-8
+Map	Button Solo 7		Pattern Step Gate 7			Step Sequencer	1-8
+Map	Button Solo 8		Pattern Step Gate 8			Step Sequencer	1-8
 
 Map	Slider 1		Pattern Step Vel 1			Step Sequencer	1-8
 Map	Slider 2		Pattern Step Vel 2			Step Sequencer	1-8
@@ -367,14 +367,14 @@ Map	Knob 6		Pattern Step Note 14			Step Sequencer	9-16
 Map	Knob 7		Pattern Step Note 15			Step Sequencer	9-16
 Map	Knob 8		Pattern Step Note 16			Step Sequencer	9-16
 
-Map	Button S1		Pattern Step Gate 9			Step Sequencer	9-16
-Map	Button S2		Pattern Step Gate 10			Step Sequencer	9-16
-Map	Button S3		Pattern Step Gate 11			Step Sequencer	9-16
-Map	Button S4		Pattern Step Gate 12			Step Sequencer	9-16
-Map	Button S5		Pattern Step Gate 13			Step Sequencer	9-16
-Map	Button S6		Pattern Step Gate 14			Step Sequencer	9-16
-Map	Button S7		Pattern Step Gate 15			Step Sequencer	9-16
-Map	Button S8		Pattern Step Gate 16			Step Sequencer	9-16
+Map	Button Solo 1		Pattern Step Gate 9			Step Sequencer	9-16
+Map	Button Solo 2		Pattern Step Gate 10			Step Sequencer	9-16
+Map	Button Solo 3		Pattern Step Gate 11			Step Sequencer	9-16
+Map	Button Solo 4		Pattern Step Gate 12			Step Sequencer	9-16
+Map	Button Solo 5		Pattern Step Gate 13			Step Sequencer	9-16
+Map	Button Solo 6		Pattern Step Gate 14			Step Sequencer	9-16
+Map	Button Solo 7		Pattern Step Gate 15			Step Sequencer	9-16
+Map	Button Solo 8		Pattern Step Gate 16			Step Sequencer	9-16
 
 Map	Slider 1		Pattern Step Vel 9			Step Sequencer	9-16
 Map	Slider 2		Pattern Step Vel 10			Step Sequencer	9-16
@@ -397,31 +397,31 @@ Define Group	Variation	Filter	Osc
 Map	Set Marker Button		Variation=Osc			Filter
 Map	Set Marker Button		Variation=Filter			Osc
 
-Map	Button S8		Select Previous Patch
-Map	Button M8		Select Next Patch
+Map	Button Solo 8		Select Previous Patch
+Map	Button Mute 8		Select Next Patch
 
-Map	Button S1		Modulator A On/Off
-Map	Button S2		Modulator A Sync
-Map	Button S3		Modulator A One Shot
-Map	Button S4		Modulator B On/Off
-Map	Button S5		Modulator B Sync
-Map	Button S6		Modulator B One Shot
+Map	Button Solo 1		Modulator A On/Off
+Map	Button Solo 2		Modulator A Sync
+Map	Button Solo 3		Modulator A One Shot
+Map	Button Solo 4		Modulator B On/Off
+Map	Button Solo 5		Modulator B Sync
+Map	Button Solo 6		Modulator B One Shot
 
-Map	Button M1		Filter A On/Off
-Map	Button M2		Filter A Mode
-Map	Button M3		Filter A Env
-Map	Button M4		Filter B On/Off
-Map	Button M5		Filter B Mode
-Map	Button M6		Filter B Env
-Map	Button M7		Filter Env Invert
+Map	Button Mute 1		Filter A On/Off
+Map	Button Mute 2		Filter A Mode
+Map	Button Mute 3		Filter A Env
+Map	Button Mute 4		Filter B On/Off
+Map	Button Mute 5		Filter B Mode
+Map	Button Mute 6		Filter B Env
+Map	Button Mute 7		Filter Env Invert
 
-Map	Button R1		Legato On/Off
-Map	Button R2		Shaper On/Off
-Map	Button R3		Shaper Mode
-Map	Button R4		Route Oscillator A To Shaper
-Map	Button R5		Route Oscillator A To Filter B
-Map	Button R6		Route Oscillator B To Filter B
-Map	Button R7		Route Filter B To Shaper
+Map	Button Rec 1		Legato On/Off
+Map	Button Rec 2		Shaper On/Off
+Map	Button Rec 3		Shaper Mode
+Map	Button Rec 4		Route Oscillator A To Shaper
+Map	Button Rec 5		Route Oscillator A To Filter B
+Map	Button Rec 6		Route Oscillator B To Filter B
+Map	Button Rec 7		Route Filter B To Shaper
 
 Map	Knob 1		Modulator A To Pitch			Filter
 Map	Knob 2		Modulator A Rate			Filter
@@ -464,8 +464,8 @@ Map	Slider 8		Oscillator B Gain			Osc
 Scope	Propellerheads	NN19 Digital Sampler
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
 
-Map	Button S8		Select Previous Patch
-Map	Button M8		Select Next Patch
+Map	Button Solo 8		Select Previous Patch
+Map	Button Mute 8		Select Next Patch
 
 Map	Slider 1		Filter Env Attack
 Map	Slider 2		Filter Env Decay
@@ -485,21 +485,21 @@ Map	Knob 6		LFO Amount
 Map	Knob 7		LFO Rate
 Map	Knob 8		Portamento
 
-Map	Button S1		Filter Mode
-Map	Button S2		Filter On/Off
-Map	Button S3		Filter Env Invert
-Map	Button S4		LFO Wave
-Map	Button S5		LFO Dest
-Map	Button S6		LFO Sync Enable
-Map	Button S7		Key Mode
+Map	Button Solo 1		Filter Mode
+Map	Button Solo 2		Filter On/Off
+Map	Button Solo 3		Filter Env Invert
+Map	Button Solo 4		LFO Wave
+Map	Button Solo 5		LFO Dest
+Map	Button Solo 6		LFO Sync Enable
+Map	Button Solo 7		Key Mode
 
 
 
 Scope	Propellerheads	NN-XT Advanced Sampler
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
 
-Map	Button S8		Select Previous Patch
-Map	Button M8		Select Next Patch
+Map	Button Solo 8		Select Previous Patch
+Map	Button Mute 8		Select Next Patch
 
 Map	Knob 1		Filter Freq
 Map	Knob 2		Filter Res
@@ -517,8 +517,8 @@ Map	Slider 8		Master Volume
 Scope	Propellerheads	Dr.REX Loop Player
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
 
-Map	Button S8		Select Previous Patch
-Map	Button M8		Select Next Patch
+Map	Button Solo 8		Select Previous Patch
+Map	Button Mute 8		Select Next Patch
 
 Map	Slider 1		Filter Env Attack
 Map	Slider 2		Filter Env Decay
@@ -538,22 +538,22 @@ Map	Knob 6		LFO1 Amount
 Map	Knob 7		LFO1 Rate
 Map	Knob 8		Master Level
 
-Map	Button S1		Filter Mode
-Map	Button S2		Filter On/Off
-Map	Button S3		LFO1 Wave
-Map	Button S4		LFO1 Dest
-Map	Button S5		LFO Sync Enable
+Map	Button Solo 1		Filter Mode
+Map	Button Solo 2		Filter On/Off
+Map	Button Solo 3		LFO1 Wave
+Map	Button Solo 4		LFO1 Dest
+Map	Button Solo 5		LFO Sync Enable
 
-Map	Button M1		Run
+Map	Button Mute 1		Run
 
-Map	Button R1		Select Loop 1
-Map	Button R2		Select Loop 2
-Map	Button R3		Select Loop 3
-Map	Button R4		Select Loop 4
-Map	Button R5		Select Loop 5
-Map	Button R6		Select Loop 6
-Map	Button R7		Select Loop 7
-Map	Button R8		Select Loop 8
+Map	Button Rec 1		Select Loop 1
+Map	Button Rec 2		Select Loop 2
+Map	Button Rec 3		Select Loop 3
+Map	Button Rec 4		Select Loop 4
+Map	Button Rec 5		Select Loop 5
+Map	Button Rec 6		Select Loop 6
+Map	Button Rec 7		Select Loop 7
+Map	Button Rec 8		Select Loop 8
 
 
 
@@ -562,8 +562,8 @@ Define Group	Drum	Drum1-7	Drum8-10
 Define Group	Knobs	Pitch	Length
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
 
-Map	Button S8		Select Previous Patch
-Map	Button M8		Select Next Patch
+Map	Button Solo 8		Select Previous Patch
+Map	Button Mute 8		Select Next Patch
 
 Map	Left Marker Button		Drum=Drum1-7
 Map	Right Marker Button		Drum=Drum8-10
@@ -572,22 +572,22 @@ Map	Set Marker Button		Knobs=Length			Pitch
 Map	Set Marker Button		Knobs=Pitch			Length
 
 
-Map	Button S1		Pattern 1
-Map	Button S2		Pattern 2
-Map	Button S3		Pattern 3
-Map	Button S4		Pattern 4
-Map	Button M1		Pattern 5
-Map	Button M2		Pattern 6
-Map	Button M3		Pattern 7
-Map	Button M4		Pattern 8
+Map	Button Solo 1		Pattern 1
+Map	Button Solo 2		Pattern 2
+Map	Button Solo 3		Pattern 3
+Map	Button Solo 4		Pattern 4
+Map	Button Mute 1		Pattern 5
+Map	Button Mute 2		Pattern 6
+Map	Button Mute 3		Pattern 7
+Map	Button Mute 4		Pattern 8
 
-Map	Button R1		Bank A
-Map	Button R2		Bank B
-Map	Button R3		Bank C
-Map	Button R4		Bank D
+Map	Button Rec 1		Bank A
+Map	Button Rec 2		Bank B
+Map	Button Rec 3		Bank C
+Map	Button Rec 4		Bank D
 
-Map	Button R7		Pattern Enable
-Map	Button R8		Run
+Map	Button Rec 7		Pattern Enable
+Map	Button Rec 8		Run
 
 Map	Slider 8		Master Level
 
@@ -643,8 +643,8 @@ Map	Set Marker Button		Variation=Pitch			Levels
 Map	Set Marker Button		Variation=Levels			Pitch
 
 
-Map	Button R7		Select Previous Patch
-Map	Button R8		Select Next Patch
+Map	Button Rec 7		Select Previous Patch
+Map	Button Rec 8		Select Next Patch
 
 Map	Slider 1		Drum 1 Level			D1-8	Levels
 Map	Slider 2		Drum 2 Level			D1-8	Levels
@@ -682,23 +682,23 @@ Map	Knob 6		Drum 6 Pitch Offset			D1-8	Pitch
 Map	Knob 7		Drum 7 Pitch Offset			D1-8	Pitch
 Map	Knob 8		Drum 8 Pitch Offset			D1-8	Pitch
 
-Map	Button M1		Pad 1 Mute			D1-8
-Map	Button M2		Pad 2 Mute			D1-8
-Map	Button M3		Pad 3 Mute			D1-8
-Map	Button M4		Pad 4 Mute			D1-8
-Map	Button M5		Pad 5 Mute			D1-8
-Map	Button M6		Pad 6 Mute			D1-8
-Map	Button M7		Pad 7 Mute			D1-8
-Map	Button M8		Pad 8 Mute			D1-8
+Map	Button Mute 1		Pad 1 Mute			D1-8
+Map	Button Mute 2		Pad 2 Mute			D1-8
+Map	Button Mute 3		Pad 3 Mute			D1-8
+Map	Button Mute 4		Pad 4 Mute			D1-8
+Map	Button Mute 5		Pad 5 Mute			D1-8
+Map	Button Mute 6		Pad 6 Mute			D1-8
+Map	Button Mute 7		Pad 7 Mute			D1-8
+Map	Button Mute 8		Pad 8 Mute			D1-8
 
-Map	Button S1		Pad 1 Solo			D1-8
-Map	Button S2		Pad 2 Solo			D1-8
-Map	Button S3		Pad 3 Solo			D1-8
-Map	Button S4		Pad 4 Solo			D1-8
-Map	Button S5		Pad 5 Solo			D1-8
-Map	Button S6		Pad 6 Solo			D1-8
-Map	Button S7		Pad 7 Solo			D1-8
-Map	Button S8		Pad 8 Solo			D1-8
+Map	Button Solo 1		Pad 1 Solo			D1-8
+Map	Button Solo 2		Pad 2 Solo			D1-8
+Map	Button Solo 3		Pad 3 Solo			D1-8
+Map	Button Solo 4		Pad 4 Solo			D1-8
+Map	Button Solo 5		Pad 5 Solo			D1-8
+Map	Button Solo 6		Pad 6 Solo			D1-8
+Map	Button Solo 7		Pad 7 Solo			D1-8
+Map	Button Solo 8		Pad 8 Solo			D1-8
 
 
 
@@ -738,23 +738,23 @@ Map	Knob 6		Drum 14 Pitch Offset			D9-16	Pitch
 Map	Knob 7		Drum 15 Pitch Offset			D9-16	Pitch
 Map	Knob 8		Drum 16 Pitch Offset			D9-16	Pitch
 
-Map	Button M1		Pad 9 Mute			D9-16
-Map	Button M2		Pad 10 Mute			D9-16
-Map	Button M3		Pad 11 Mute			D9-16
-Map	Button M4		Pad 12 Mute			D9-16
-Map	Button M5		Pad 13 Mute			D9-16
-Map	Button M6		Pad 14 Mute			D9-16
-Map	Button M7		Pad 15 Mute			D9-16
-Map	Button M8		Pad 16 Mute			D9-16
+Map	Button Mute 1		Pad 9 Mute			D9-16
+Map	Button Mute 2		Pad 10 Mute			D9-16
+Map	Button Mute 3		Pad 11 Mute			D9-16
+Map	Button Mute 4		Pad 12 Mute			D9-16
+Map	Button Mute 5		Pad 13 Mute			D9-16
+Map	Button Mute 6		Pad 14 Mute			D9-16
+Map	Button Mute 7		Pad 15 Mute			D9-16
+Map	Button Mute 8		Pad 16 Mute			D9-16
 
-Map	Button S1		Pad 9 Solo			D9-16
-Map	Button S2		Pad 10 Solo			D9-16
-Map	Button S3		Pad 11 Solo			D9-16
-Map	Button S4		Pad 12 Solo			D9-16
-Map	Button S5		Pad 13 Solo			D9-16
-Map	Button S6		Pad 14 Solo			D9-16
-Map	Button S7		Pad 15 Solo			D9-16
-Map	Button S8		Pad 16 Solo			D9-16
+Map	Button Solo 1		Pad 9 Solo			D9-16
+Map	Button Solo 2		Pad 10 Solo			D9-16
+Map	Button Solo 3		Pad 11 Solo			D9-16
+Map	Button Solo 4		Pad 12 Solo			D9-16
+Map	Button Solo 5		Pad 13 Solo			D9-16
+Map	Button Solo 6		Pad 14 Solo			D9-16
+Map	Button Solo 7		Pad 15 Solo			D9-16
+Map	Button Solo 8		Pad 16 Solo			D9-16
 
 
 
@@ -762,16 +762,16 @@ Map	Button S8		Pad 16 Solo			D9-16
 Scope	Propellerheads	RV7000 Advanced Reverb
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
 
-Map	Button S8		Select Previous Patch
-Map	Button M8		Select Next Patch
+Map	Button Solo 8		Select Previous Patch
+Map	Button Mute 8		Select Next Patch
 
 Map	Knob 1		Decay
 Map	Knob 2		HF Damp
 Map	Knob 3		Hi EQ
 Map	Knob 4		Dry/Wet
-Map	Button S1		EQ On/Off
-Map	Button S2		Gate On/Off
-Map	Button S3		Edit Mode
+Map	Button Solo 1		EQ On/Off
+Map	Button Solo 2		Gate On/Off
+Map	Button Solo 3		Edit Mode
 
 Map	Slider 1		Soft Knob 1
 Map	Slider 2		Soft Knob 2
@@ -782,14 +782,14 @@ Map	Slider 6		Soft Knob 6
 Map	Slider 7		Soft Knob 7
 Map	Slider 8		Soft Knob 8
 
-Map	Button R1		Enabled
+Map	Button Rec 1		Enabled
 
 
 Scope	Propellerheads	Scream 4 Distortion
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
 
-Map	Button S8		Select Previous Patch
-Map	Button M8		Select Next Patch
+Map	Button Solo 8		Select Previous Patch
+Map	Button Mute 8		Select Next Patch
 
 Map	Knob 1		Damage Control
 Map	Knob 2		Damage Type
@@ -805,10 +805,10 @@ Map	Slider 1		Cut Lo
 Map	Slider 2		Cut Mid
 Map	Slider 3		Cut Hi
 
-Map	Button S1		Damage On/Off
-Map	Button S2		Cut On/Off
-Map	Button S3		Body On/Off
-Map	Button R1		Enabled
+Map	Button Solo 1		Damage On/Off
+Map	Button Solo 2		Cut On/Off
+Map	Button Solo 3		Body On/Off
+Map	Button Rec 1		Enabled
 
 
 
@@ -830,10 +830,10 @@ Map	Knob 4		Shift
 Map	Knob 5		HF Emphasis
 Map	Knob 6		Dry/Wet
 
-Map	Button S1		Vocoder/Equalizer
-Map	Button S2		Hold
+Map	Button Solo 1		Vocoder/Equalizer
+Map	Button Solo 2		Hold
 
-Map	Button R1		Enabled
+Map	Button Rec 1		Enabled
 
 Map	Slider 1		Band Level 1			Band1-8
 Map	Slider 2		Band Level 2			Band1-8
@@ -877,13 +877,13 @@ Map	Slider 8		Band Level 32			Band25-32
 Scope	Propellerheads	MClass Equalizer
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
 
-Map	Button S1		Low Cut Enable
-Map	Button S2		Low Shelf Enable
-Map	Button S3		Parametric 1 Enable
-Map	Button S4		Parametric 2 Enable
-Map	Button S5		Hi Shelf Enable
+Map	Button Solo 1		Low Cut Enable
+Map	Button Solo 2		Low Shelf Enable
+Map	Button Solo 3		Parametric 1 Enable
+Map	Button Solo 4		Parametric 2 Enable
+Map	Button Solo 5		Hi Shelf Enable
 
-Map	Button R1		Enabled
+Map	Button Rec 1		Enabled
 
 Map	Knob 1		Parametric 1 Frequency
 Map	Knob 2		Parametric 1 Gain
@@ -907,9 +907,9 @@ Map	Knob 1		Low Width
 Map	Knob 2		X-Over Frequency
 Map	Knob 3		High Width
 
-Map	Button S1		Solo Mode
+Map	Button Solo 1		Solo Mode
 
-Map	Button R1		Enabled
+Map	Button Rec 1		Enabled
 
 
 
@@ -923,11 +923,11 @@ Map	Knob 4		Attack
 Map	Knob 5		Release
 Map	Knob 6		Output Gain
 
-Map	Button S1		Soft Knee
-Map	Button S2		Sidechain Solo
-Map	Button S3		Adapt
+Map	Button Solo 1		Soft Knee
+Map	Button Solo 2		Sidechain Solo
+Map	Button Solo 3		Adapt
 
-Map	Button R1		Enabled
+Map	Button Rec 1		Enabled
 
 
 
@@ -940,12 +940,12 @@ Map	Knob 3		Release Speed
 Map	Knob 4		Output Gain
 Map	Knob 5		Soft Clip Amount
 
-Map	Button S1		Limiter Enable
-Map	Button S2		Look Ahead Enable
-Map	Button S3		Soft Clip Enable
-Map	Button S4		Output Level Meter Mode
+Map	Button Solo 1		Limiter Enable
+Map	Button Solo 2		Look Ahead Enable
+Map	Button Solo 3		Soft Clip Enable
+Map	Button Solo 4		Output Level Meter Mode
 
-Map	Button R1		Enabled
+Map	Button Rec 1		Enabled
 
 
 
@@ -958,7 +958,7 @@ Map	Knob 3		Decay
 Map	Knob 4		Damping
 Map	Knob 5		Dry/Wet
 
-Map	Button R1		Enabled
+Map	Button Rec 1		Enabled
 
 
 
@@ -972,10 +972,10 @@ Map	Knob 3		Feedback
 Map	Knob 4		Pan
 Map	Knob 5		Dry/Wet Balance
 
-Map	Button S1		Unit
-Map	Button S2		Step Length
+Map	Button Solo 1		Unit
+Map	Button Solo 2		Step Length
 
-Map	Button R1		Enabled
+Map	Button Rec 1		Enabled
 
 
 
@@ -985,7 +985,7 @@ Scope	Propellerheads	D-11 Foldback Distortion
 Map	Knob 1		Amount
 Map	Knob 2		Foldback
 
-Map	Button R1		Enabled
+Map	Button Rec 1		Enabled
 
 
 
@@ -1001,9 +1001,9 @@ Map	Knob 6		Decay
 Map	Knob 7		Sustain
 Map	Knob 8		Release
 
-Map	Button S1		Mode
+Map	Button Solo 1		Mode
 
-Map	Button R1		Enabled
+Map	Button Rec 1		Enabled
 
 
 
@@ -1015,10 +1015,10 @@ Map	Knob 2		Feedback
 Map	Knob 3		Rate
 Map	Knob 4		Modulation Amount
 
-Map	Button S1		LFO Sync Enable
-Map	Button S2		Send/Insert Mode
+Map	Button Solo 1		LFO Sync Enable
+Map	Button Solo 2		Send/Insert Mode
 
-Map	Button R1		Enabled
+Map	Button Rec 1		Enabled
 
 
 
@@ -1032,9 +1032,9 @@ Map	Knob 4		Rate
 Map	Knob 5		Frequency Modulation
 Map	Knob 6		Feedback
 
-Map	Button S1		LFO Sync Enable
+Map	Button Solo 1		LFO Sync Enable
 
-Map	Button R1		Enabled
+Map	Button Rec 1		Enabled
 
 
 
@@ -1045,9 +1045,9 @@ Scope	Propellerheads	UN-16 Unison
 Map	Knob 1		Detune
 Map	Knob 2		Dry/Wet
 
-Map	Button S1		Voice Count
+Map	Button Solo 1		Voice Count
 
-Map	Button R1		Enabled
+Map	Button Rec 1		Enabled
 
 
 
@@ -1059,7 +1059,7 @@ Map	Knob 2		Threshold
 Map	Knob 3		Attack
 Map	Knob 4		Release
 
-Map	Button R1		Enabled
+Map	Button Rec 1		Enabled
 
 
 
@@ -1074,9 +1074,9 @@ Map	Knob 4		Filter B Freq
 Map	Knob 5		Filter B Q
 Map	Knob 6		Filter B Gain
 
-Map	Button S1		Filter B On/Off
+Map	Button Solo 1		Filter B On/Off
 
-Map	Button R1		Enabled
+Map	Button Rec 1		Enabled
 
 
 
@@ -1084,22 +1084,22 @@ Scope	Propellerheads	Matrix Pattern Sequencer
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
 
 
-Map	Button S1		Pattern 1
-Map	Button S2		Pattern 2
-Map	Button S3		Pattern 3
-Map	Button S4		Pattern 4
-Map	Button M1		Pattern 5
-Map	Button M2		Pattern 6
-Map	Button M3		Pattern 7
-Map	Button M4		Pattern 8
+Map	Button Solo 1		Pattern 1
+Map	Button Solo 2		Pattern 2
+Map	Button Solo 3		Pattern 3
+Map	Button Solo 4		Pattern 4
+Map	Button Mute 1		Pattern 5
+Map	Button Mute 2		Pattern 6
+Map	Button Mute 3		Pattern 7
+Map	Button Mute 4		Pattern 8
 
-Map	Button R1		Bank A
-Map	Button R2		Bank B
-Map	Button R3		Bank C
-Map	Button R4		Bank D
+Map	Button Rec 1		Bank A
+Map	Button Rec 2		Bank B
+Map	Button Rec 3		Bank C
+Map	Button Rec 4		Bank D
 
-Map	Button R7		Pattern Enable
-Map	Button R8		Run
+Map	Button Rec 7		Pattern Enable
+Map	Button Rec 8		Run
 
 
 
@@ -1115,12 +1115,12 @@ Map	Knob 5		Insert
 Map	Knob 6		Velocity/Manual
 Map	Knob 7		Octave Shift
 
-Map	Button S1		Arpeggiator Enable
-Map	Button S2		Hold
-Map	Button S3		Sync
-Map	Button S4		Single Note Repeat
-Map	Button S5		Pattern Enable
-Map	Button S6		Shuffle
+Map	Button Solo 1		Arpeggiator Enable
+Map	Button Solo 2		Hold
+Map	Button Solo 3		Sync
+Map	Button Solo 4		Single Note Repeat
+Map	Button Solo 5		Pattern Enable
+Map	Button Solo 6		Shuffle
 
 
 
@@ -1137,8 +1137,8 @@ Map	FFW Button		Fast Forward
 
 Map	Prev Track Button		Target Previous Track
 Map	Next Track Button		Target Next Track
-Map	Button S8		Select Prev Patch for Target Device
-Map	Button M8		Select Next Patch for Target Device
+Map	Button Solo 8		Select Prev Patch for Target Device
+Map	Button Mute 8		Select Next Patch for Target Device
 
 Map	Wheel		Song Position	15360
  
@@ -1154,8 +1154,8 @@ Map	FFW Button		Fast Forward
 
 Map	Prev Track Button		Target Previous Track
 Map	Next Track Button		Target Next Track
-Map	Button S8		Select Prev Patch for Target Device
-Map	Button M8		Select Next Patch for Target Device
+Map	Button Solo 8		Select Prev Patch for Target Device
+Map	Button Mute 8		Select Next Patch for Target Device
 
 
 
@@ -1179,14 +1179,14 @@ Map	Slider 6		A6 Groove Amount
 Map	Slider 7		A7 Groove Amount
 Map	Slider 8		A8 Groove Amount
 
-Map	Button S1		A1 Groove Ch On
-Map	Button S2		A2 Groove Ch On
-Map	Button S3		A3 Groove Ch On
-Map	Button S4		A4 Groove Ch On
-Map	Button S5		A5 Groove Ch On
-Map	Button S6		A6 Groove Ch On
-Map	Button S7		A7 Groove Ch On
-Map	Button S8		A8 Groove Ch On
+Map	Button Solo 1		A1 Groove Ch On
+Map	Button Solo 2		A2 Groove Ch On
+Map	Button Solo 3		A3 Groove Ch On
+Map	Button Solo 4		A4 Groove Ch On
+Map	Button Solo 5		A5 Groove Ch On
+Map	Button Solo 6		A6 Groove Ch On
+Map	Button Solo 7		A7 Groove Ch On
+Map	Button Solo 8		A8 Groove Ch On
 
 Map	Knob 1		A1 Shuffle			Shuffle
 Map	Knob 2		A2 Shuffle			Shuffle
@@ -1197,14 +1197,14 @@ Map	Knob 6		A6 Shuffle			Shuffle
 Map	Knob 7		A7 Shuffle			Shuffle
 Map	Knob 8		A8 Shuffle			Shuffle
 
-Map	Button R1		A1 Use Global Shuffle
-Map	Button R2		A2 Use Global Shuffle
-Map	Button R3		A3 Use Global Shuffle
-Map	Button R4		A4 Use Global Shuffle
-Map	Button R5		A5 Use Global Shuffle
-Map	Button R6		A6 Use Global Shuffle
-Map	Button R7		A7 Use Global Shuffle
-Map	Button R8		A8 Use Global Shuffle
+Map	Button Rec 1		A1 Use Global Shuffle
+Map	Button Rec 2		A2 Use Global Shuffle
+Map	Button Rec 3		A3 Use Global Shuffle
+Map	Button Rec 4		A4 Use Global Shuffle
+Map	Button Rec 5		A5 Use Global Shuffle
+Map	Button Rec 6		A6 Use Global Shuffle
+Map	Button Rec 7		A7 Use Global Shuffle
+Map	Button Rec 8		A8 Use Global Shuffle
 
 Map	Knob 1		A1 Slide			Slide
 Map	Knob 2		A2 Slide			Slide
@@ -1215,14 +1215,14 @@ Map	Knob 6		A6 Slide			Slide
 Map	Knob 7		A7 Slide			Slide
 Map	Knob 8		A8 Slide			Slide
 
-Map	Button M1		A1 Pre-Align
-Map	Button M2		A2 Pre-Align
-Map	Button M3		A3 Pre-Align
-Map	Button M4		A4 Pre-Align
-Map	Button M5		A5 Pre-Align
-Map	Button M6		A6 Pre-Align
-Map	Button M7		A7 Pre-Align
-Map	Button M8		A8 Pre-Align
+Map	Button Mute 1		A1 Pre-Align
+Map	Button Mute 2		A2 Pre-Align
+Map	Button Mute 3		A3 Pre-Align
+Map	Button Mute 4		A4 Pre-Align
+Map	Button Mute 5		A5 Pre-Align
+Map	Button Mute 6		A6 Pre-Align
+Map	Button Mute 7		A7 Pre-Align
+Map	Button Mute 8		A8 Pre-Align
 
 
 
@@ -1231,8 +1231,8 @@ Scope	Propellerheads	ID8 Instrument Device
 
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
 
-Map	Button S8		Select Previous Preset
-Map	Button M8		Select Next Preset
+Map	Button Solo 8		Select Previous Preset
+Map	Button Mute 8		Select Next Preset
 
 Map	Knob 1		Parameter 1
 Map	Knob 2		Parameter 2
@@ -1245,8 +1245,8 @@ Scope	Propellerheads	Line 6 Guitar Amp
 
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
 
-Map	Button S8		Select Previous Patch
-Map	Button M8		Select Next Patch
+Map	Button Solo 8		Select Previous Patch
+Map	Button Mute 8		Select Next Patch
 
 Map	Knob 1		Drive
 Map	Knob 2		Bass
@@ -1255,24 +1255,24 @@ Map	Knob 4		Treble
 Map	Knob 5		Presence
 Map	Knob 8		Volume
 
-Map	Button R1		Enabled
+Map	Button Rec 1		Enabled
 
-Map	Button S1		Wah Pedal On
+Map	Button Solo 1		Wah Pedal On
 Map	Slider 1		Wah Pedal
 Map	Slider 2		Volume Pedal
 
-Map	Button S6		Select Previous Amp Model
-Map	Button M6		Select Next Amp Model
-Map	Button S7		Select Previous Cab Model
-Map	Button M7		Select Next Cab Model
+Map	Button Solo 6		Select Previous Amp Model
+Map	Button Mute 6		Select Next Amp Model
+Map	Button Solo 7		Select Previous Cab Model
+Map	Button Mute 7		Select Next Cab Model
 
 
 Scope	Propellerheads	Line 6 Bass Amp
 
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
 
-Map	Button S8		Select Previous Patch
-Map	Button M8		Select Next Patch
+Map	Button Solo 8		Select Previous Patch
+Map	Button Mute 8		Select Next Patch
 
 Map	Knob 1		Drive
 Map	Knob 2		Bass
@@ -1281,26 +1281,26 @@ Map	Knob 4		Hi Mid
 Map	Knob 5		Treble
 Map	Knob 8		Volume
 
-Map	Button R1		Enabled
+Map	Button Rec 1		Enabled
 
-Map	Button S1		Compressor On
+Map	Button Solo 1		Compressor On
 Map	Slider 1		Comp Threshold
 
-Map	Button S6		Select Previous Amp Model
-Map	Button M6		Select Next Amp Model
-Map	Button S7		Select Previous Cab Model
-Map	Button M7		Select Next Cab Model
+Map	Button Solo 6		Select Previous Amp Model
+Map	Button Mute 6		Select Next Amp Model
+Map	Button Solo 7		Select Previous Cab Model
+Map	Button Mute 7		Select Next Cab Model
 
 
 
 Scope	Propellerheads	Neptune Pitch Adjuster
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
-Map	Button R1		Enabled
+Map	Button Rec 1		Enabled
 
-Map	Button S1		Low Freq Input
-Map	Button S2		Wide Vibrato
-Map	Button S3		Live Mode
-Map	Button S4		MIDI Destination
+Map	Button Solo 1		Low Freq Input
+Map	Button Solo 2		Wide Vibrato
+Map	Button Solo 3		Live Mode
+Map	Button Solo 4		MIDI Destination
 
 Map	Knob 1		Correction Speed
 Map	Knob 2		Preserve Expression
@@ -1309,10 +1309,10 @@ Map	Knob 4		Formant Shift
 
 Map	Knob 5		Vibrato Rate
 
-Map	Button M1		Scale Memory
-Map	Button M2		Pitch Adjust On/Off
-Map	Button M3		Transpose On/Off
-Map	Button M4		Formant On/Off
+Map	Button Mute 1		Scale Memory
+Map	Button Mute 2		Pitch Adjust On/Off
+Map	Button Mute 3		Transpose On/Off
+Map	Button Mute 4		Formant On/Off
 
 Map	Slider 1		Pitched Signal Level
 Map	Slider 2		Voice Synth Level
@@ -1350,32 +1350,32 @@ Map	Knob 6		Channel 6 Pan			Channels
 Map	Knob 7		Channel 7 Pan			Channels
 Map	Knob 8		Channel 8 Pan			Channels
 
-Map	Button S1		Channel 1 Solo			Channels
-Map	Button S2		Channel 2 Solo			Channels
-Map	Button S3		Channel 3 Solo			Channels
-Map	Button S4		Channel 4 Solo			Channels
-Map	Button S5		Channel 5 Solo			Channels
-Map	Button S6		Channel 6 Solo			Channels
-Map	Button S7		Channel 7 Solo			Channels
-Map	Button S8		Channel 8 Solo			Channels
+Map	Button Solo 1		Channel 1 Solo			Channels
+Map	Button Solo 2		Channel 2 Solo			Channels
+Map	Button Solo 3		Channel 3 Solo			Channels
+Map	Button Solo 4		Channel 4 Solo			Channels
+Map	Button Solo 5		Channel 5 Solo			Channels
+Map	Button Solo 6		Channel 6 Solo			Channels
+Map	Button Solo 7		Channel 7 Solo			Channels
+Map	Button Solo 8		Channel 8 Solo			Channels
 
-Map	Button M1		Channel 1 Mute			Channels
-Map	Button M2		Channel 2 Mute			Channels
-Map	Button M3		Channel 3 Mute			Channels
-Map	Button M4		Channel 4 Mute			Channels
-Map	Button M5		Channel 5 Mute			Channels
-Map	Button M6		Channel 6 Mute			Channels
-Map	Button M7		Channel 7 Mute			Channels
-Map	Button M8		Channel 8 Mute			Channels
+Map	Button Mute 1		Channel 1 Mute			Channels
+Map	Button Mute 2		Channel 2 Mute			Channels
+Map	Button Mute 3		Channel 3 Mute			Channels
+Map	Button Mute 4		Channel 4 Mute			Channels
+Map	Button Mute 5		Channel 5 Mute			Channels
+Map	Button Mute 6		Channel 6 Mute			Channels
+Map	Button Mute 7		Channel 7 Mute			Channels
+Map	Button Mute 8		Channel 8 Mute			Channels
 
-Map	Button R1		Channel 1 Bypass Insert FX			Channels
-Map	Button R2		Channel 2 Bypass Insert FX			Channels
-Map	Button R3		Channel 3 Bypass Insert FX			Channels
-Map	Button R4		Channel 4 Bypass Insert FX			Channels
-Map	Button R5		Channel 5 Bypass Insert FX			Channels
-Map	Button R6		Channel 6 Bypass Insert FX			Channels
-Map	Button R7		Channel 7 Bypass Insert FX			Channels
-Map	Button R8		Channel 8 Bypass Insert FX			Channels
+Map	Button Rec 1		Channel 1 Bypass Insert FX			Channels
+Map	Button Rec 2		Channel 2 Bypass Insert FX			Channels
+Map	Button Rec 3		Channel 3 Bypass Insert FX			Channels
+Map	Button Rec 4		Channel 4 Bypass Insert FX			Channels
+Map	Button Rec 5		Channel 5 Bypass Insert FX			Channels
+Map	Button Rec 6		Channel 6 Bypass Insert FX			Channels
+Map	Button Rec 7		Channel 7 Bypass Insert FX			Channels
+Map	Button Rec 8		Channel 8 Bypass Insert FX			Channels
 
 
 
@@ -1397,28 +1397,28 @@ Map	Knob 6		Ratio			Master
 Map	Knob 7		Make-Up Gain			Master
 Map	Knob 8		Master Level			Master
 
-Map	Button S1		Button 1			Master
-Map	Button S2		Button 2			Master
-Map	Button S3		Button 3			Master
-Map	Button S4		Button 4			Master
-Map	Button S5		Compressor On			Master
-Map	Button S6		Key On			Master
-Map	Button S7		All Mutes Off			Master
-Map	Button S8		All Solo Off			Master
+Map	Button Solo 1		Button 1			Master
+Map	Button Solo 2		Button 2			Master
+Map	Button Solo 3		Button 3			Master
+Map	Button Solo 4		Button 4			Master
+Map	Button Solo 5		Compressor On			Master
+Map	Button Solo 6		Key On			Master
+Map	Button Solo 7		All Mutes Off			Master
+Map	Button Solo 8		All Solo Off			Master
 
-Map	Button R1		Bypass Insert FX			Master
-Map	Button R2		Inserts Pre			Master
-Map	Button R3		Select Prev Insert FX Patch			Master
-Map	Button R4		Select Next Insert FX Patch			Master
+Map	Button Rec 1		Bypass Insert FX			Master
+Map	Button Rec 2		Inserts Pre			Master
+Map	Button Rec 3		Select Prev Insert FX Patch			Master
+Map	Button Rec 4		Select Next Insert FX Patch			Master
 
-Map	Button M1		FX1 Mute			Master
-Map	Button M2		FX2 Mute			Master
-Map	Button M3		FX3 Mute			Master
-Map	Button M4		FX4 Mute			Master
-Map	Button M5		FX5 Mute			Master
-Map	Button M6		FX6 Mute			Master
-Map	Button M7		FX7 Mute			Master
-Map	Button M8		FX8 Mute			Master
+Map	Button Mute 1		FX1 Mute			Master
+Map	Button Mute 2		FX2 Mute			Master
+Map	Button Mute 3		FX3 Mute			Master
+Map	Button Mute 4		FX4 Mute			Master
+Map	Button Mute 5		FX5 Mute			Master
+Map	Button Mute 6		FX6 Mute			Master
+Map	Button Mute 7		FX7 Mute			Master
+Map	Button Mute 8		FX8 Mute			Master
 
 
 Scope	Propellerheads	Record Master Section
@@ -1450,32 +1450,32 @@ Map	Knob 6		Channel 6 Pan			Channels
 Map	Knob 7		Channel 7 Pan			Channels
 Map	Knob 8		Channel 8 Pan			Channels
 
-Map	Button S1		Channel 1 Solo			Channels
-Map	Button S2		Channel 2 Solo			Channels
-Map	Button S3		Channel 3 Solo			Channels
-Map	Button S4		Channel 4 Solo			Channels
-Map	Button S5		Channel 5 Solo			Channels
-Map	Button S6		Channel 6 Solo			Channels
-Map	Button S7		Channel 7 Solo			Channels
-Map	Button S8		Channel 8 Solo			Channels
+Map	Button Solo 1		Channel 1 Solo			Channels
+Map	Button Solo 2		Channel 2 Solo			Channels
+Map	Button Solo 3		Channel 3 Solo			Channels
+Map	Button Solo 4		Channel 4 Solo			Channels
+Map	Button Solo 5		Channel 5 Solo			Channels
+Map	Button Solo 6		Channel 6 Solo			Channels
+Map	Button Solo 7		Channel 7 Solo			Channels
+Map	Button Solo 8		Channel 8 Solo			Channels
 
-Map	Button M1		Channel 1 Mute			Channels
-Map	Button M2		Channel 2 Mute			Channels
-Map	Button M3		Channel 3 Mute			Channels
-Map	Button M4		Channel 4 Mute			Channels
-Map	Button M5		Channel 5 Mute			Channels
-Map	Button M6		Channel 6 Mute			Channels
-Map	Button M7		Channel 7 Mute			Channels
-Map	Button M8		Channel 8 Mute			Channels
+Map	Button Mute 1		Channel 1 Mute			Channels
+Map	Button Mute 2		Channel 2 Mute			Channels
+Map	Button Mute 3		Channel 3 Mute			Channels
+Map	Button Mute 4		Channel 4 Mute			Channels
+Map	Button Mute 5		Channel 5 Mute			Channels
+Map	Button Mute 6		Channel 6 Mute			Channels
+Map	Button Mute 7		Channel 7 Mute			Channels
+Map	Button Mute 8		Channel 8 Mute			Channels
 
-Map	Button R1		Channel 1 Bypass Insert FX			Channels
-Map	Button R2		Channel 2 Bypass Insert FX			Channels
-Map	Button R3		Channel 3 Bypass Insert FX			Channels
-Map	Button R4		Channel 4 Bypass Insert FX			Channels
-Map	Button R5		Channel 5 Bypass Insert FX			Channels
-Map	Button R6		Channel 6 Bypass Insert FX			Channels
-Map	Button R7		Channel 7 Bypass Insert FX			Channels
-Map	Button R8		Channel 8 Bypass Insert FX			Channels
+Map	Button Rec 1		Channel 1 Bypass Insert FX			Channels
+Map	Button Rec 2		Channel 2 Bypass Insert FX			Channels
+Map	Button Rec 3		Channel 3 Bypass Insert FX			Channels
+Map	Button Rec 4		Channel 4 Bypass Insert FX			Channels
+Map	Button Rec 5		Channel 5 Bypass Insert FX			Channels
+Map	Button Rec 6		Channel 6 Bypass Insert FX			Channels
+Map	Button Rec 7		Channel 7 Bypass Insert FX			Channels
+Map	Button Rec 8		Channel 8 Bypass Insert FX			Channels
 
 
 
@@ -1497,28 +1497,28 @@ Map	Knob 6		Ratio			Master
 Map	Knob 7		Make-Up Gain			Master
 Map	Knob 8		Master Level			Master
 
-Map	Button S1		Button 1			Master
-Map	Button S2		Button 2			Master
-Map	Button S3		Button 3			Master
-Map	Button S4		Button 4			Master
-Map	Button S5		Compressor On			Master
-Map	Button S6		Key On			Master
-Map	Button S7		All Mutes Off			Master
-Map	Button S8		All Solo Off			Master
+Map	Button Solo 1		Button 1			Master
+Map	Button Solo 2		Button 2			Master
+Map	Button Solo 3		Button 3			Master
+Map	Button Solo 4		Button 4			Master
+Map	Button Solo 5		Compressor On			Master
+Map	Button Solo 6		Key On			Master
+Map	Button Solo 7		All Mutes Off			Master
+Map	Button Solo 8		All Solo Off			Master
 
-Map	Button R1		Bypass Insert FX			Master
-Map	Button R2		Inserts Pre			Master
-Map	Button R3		Select Prev Insert FX Patch			Master
-Map	Button R4		Select Next Insert FX Patch			Master
+Map	Button Rec 1		Bypass Insert FX			Master
+Map	Button Rec 2		Inserts Pre			Master
+Map	Button Rec 3		Select Prev Insert FX Patch			Master
+Map	Button Rec 4		Select Next Insert FX Patch			Master
 
-Map	Button M1		FX1 Mute			Master
-Map	Button M2		FX2 Mute			Master
-Map	Button M3		FX3 Mute			Master
-Map	Button M4		FX4 Mute			Master
-Map	Button M5		FX5 Mute			Master
-Map	Button M6		FX6 Mute			Master
-Map	Button M7		FX7 Mute			Master
-Map	Button M8		FX8 Mute			Master
+Map	Button Mute 1		FX1 Mute			Master
+Map	Button Mute 2		FX2 Mute			Master
+Map	Button Mute 3		FX3 Mute			Master
+Map	Button Mute 4		FX4 Mute			Master
+Map	Button Mute 5		FX5 Mute			Master
+Map	Button Mute 6		FX6 Mute			Master
+Map	Button Mute 7		FX7 Mute			Master
+Map	Button Mute 8		FX8 Mute			Master
 
 
 
@@ -1536,8 +1536,8 @@ Map	Set Marker Button		Target=Inserts			EQ
 
 Map	Knob 8		Pan
 Map	Slider 8		Level
-Map	Button M8		Mute
-Map	Button S8		Solo
+Map	Button Mute 8		Mute
+Map	Button Solo 8		Solo
 
 Map	Knob 1		Rotary 1			Inserts
 Map	Knob 2		Rotary 2			Inserts
@@ -1545,16 +1545,16 @@ Map	Knob 3		Rotary 3			Inserts
 Map	Knob 4		Rotary 4			Inserts
 
 Map	Knob 7		Input Gain			Inserts
-Map	Button S7		Invert Phase			Inserts
+Map	Button Solo 7		Invert Phase			Inserts
 
-Map	Button S1		Button 1			Inserts
-Map	Button S2		Button 2			Inserts
-Map	Button S3		Button 3			Inserts
-Map	Button S4		Button 4			Inserts
-Map	Button M1		Bypass Insert FX			Inserts
-Map	Button M2		Insert Pre			Inserts
-Map	Button S5		Select Prev Insert FX Patch			Inserts
-Map	Button M5		Select Next Insert FX Patch			Inserts
+Map	Button Solo 1		Button 1			Inserts
+Map	Button Solo 2		Button 2			Inserts
+Map	Button Solo 3		Button 3			Inserts
+Map	Button Solo 4		Button 4			Inserts
+Map	Button Mute 1		Bypass Insert FX			Inserts
+Map	Button Mute 2		Insert Pre			Inserts
+Map	Button Solo 5		Select Prev Insert FX Patch			Inserts
+Map	Button Mute 5		Select Next Insert FX Patch			Inserts
 
 Map	Slider 1		C Ratio			Inserts
 Map	Slider 2		C Threshold			Inserts
@@ -1564,14 +1564,14 @@ Map	Slider 5		G Threshold			Inserts
 Map	Slider 6		G Release			Inserts
 Map	Slider 7		G Hold			Inserts
 
-Map	Button R1		Comp On			Inserts
-Map	Button R2		C Peak			Inserts
-Map	Button R3		C Fast Atk			Inserts
-Map	Button R4		Gate On			Inserts
-Map	Button R5		Expander			Inserts
-Map	Button R6		G Fast Atk			Inserts
-Map	Button R7		Key On			Inserts
-Map	Button R8		Dyn Post EQ			Inserts
+Map	Button Rec 1		Comp On			Inserts
+Map	Button Rec 2		C Peak			Inserts
+Map	Button Rec 3		C Fast Atk			Inserts
+Map	Button Rec 4		Gate On			Inserts
+Map	Button Rec 5		Expander			Inserts
+Map	Button Rec 6		G Fast Atk			Inserts
+Map	Button Rec 7		Key On			Inserts
+Map	Button Rec 8		Dyn Post EQ			Inserts
 
 
 Map	Knob 1		FX1 Send Level			FX Sends
@@ -1583,23 +1583,23 @@ Map	Knob 6		FX6 Send Level			FX Sends
 Map	Knob 7		FX7 Send Level			FX Sends
 Map	Knob 8		FX8 Send Level			FX Sends
 
-Map	Button S1		FX1 Send On			FX Sends
-Map	Button S2		FX2 Send On			FX Sends
-Map	Button S3		FX3 Send On			FX Sends
-Map	Button S4		FX4 Send On			FX Sends
-Map	Button S5		FX5 Send On			FX Sends
-Map	Button S6		FX6 Send On			FX Sends
-Map	Button S7		FX7 Send On			FX Sends
-Map	Button S8		FX8 Send On			FX Sends
+Map	Button Solo 1		FX1 Send On			FX Sends
+Map	Button Solo 2		FX2 Send On			FX Sends
+Map	Button Solo 3		FX3 Send On			FX Sends
+Map	Button Solo 4		FX4 Send On			FX Sends
+Map	Button Solo 5		FX5 Send On			FX Sends
+Map	Button Solo 6		FX6 Send On			FX Sends
+Map	Button Solo 7		FX7 Send On			FX Sends
+Map	Button Solo 8		FX8 Send On			FX Sends
 
-Map	Button M1		FX1 Pre Fader			FX Sends
-Map	Button M2		FX2 Pre Fader			FX Sends
-Map	Button M3		FX3 Pre Fader			FX Sends
-Map	Button M4		FX4 Pre Fader			FX Sends
-Map	Button M5		FX5 Pre Fader			FX Sends
-Map	Button M6		FX6 Pre Fader			FX Sends
-Map	Button M7		FX7 Pre Fader			FX Sends
-Map	Button M8		FX8 Pre Fader			FX Sends
+Map	Button Mute 1		FX1 Pre Fader			FX Sends
+Map	Button Mute 2		FX2 Pre Fader			FX Sends
+Map	Button Mute 3		FX3 Pre Fader			FX Sends
+Map	Button Mute 4		FX4 Pre Fader			FX Sends
+Map	Button Mute 5		FX5 Pre Fader			FX Sends
+Map	Button Mute 6		FX6 Pre Fader			FX Sends
+Map	Button Mute 7		FX7 Pre Fader			FX Sends
+Map	Button Mute 8		FX8 Pre Fader			FX Sends
 
 
 Map	Knob 1		LPF Frequency			EQ
@@ -1616,12 +1616,12 @@ Map	Slider 4		HMF Gain			EQ
 Map	Slider 5		HMF Frequency			EQ
 Map	Slider 6		HMF Q			EQ
 
-Map	Button S1		LPF On			EQ
-Map	Button S2		HPF On			EQ
-Map	Button S3		LF Bell			EQ
-Map	Button S5		HF Bell			EQ
-Map	Button M1		EQ On			EQ
-Map	Button M2		EQ E Mode			EQ
+Map	Button Solo 1		LPF On			EQ
+Map	Button Solo 2		HPF On			EQ
+Map	Button Solo 3		LF Bell			EQ
+Map	Button Solo 5		HF Bell			EQ
+Map	Button Mute 1		EQ On			EQ
+Map	Button Mute 2		EQ E Mode			EQ
 
 
 Scope	Propellerheads	Record Main Mixer Channel
@@ -1636,8 +1636,8 @@ Map	Set Marker Button		Target=Inserts			EQ
 
 Map	Knob 8		Pan
 Map	Slider 8		Level
-Map	Button M8		Mute
-Map	Button S8		Solo
+Map	Button Mute 8		Mute
+Map	Button Solo 8		Solo
 
 Map	Knob 1		Rotary 1			Inserts
 Map	Knob 2		Rotary 2			Inserts
@@ -1645,16 +1645,16 @@ Map	Knob 3		Rotary 3			Inserts
 Map	Knob 4		Rotary 4			Inserts
 
 Map	Knob 7		Input Gain			Inserts
-Map	Button S7		Invert Phase			Inserts
+Map	Button Solo 7		Invert Phase			Inserts
 
-Map	Button S1		Button 1			Inserts
-Map	Button S2		Button 2			Inserts
-Map	Button S3		Button 3			Inserts
-Map	Button S4		Button 4			Inserts
-Map	Button M1		Bypass Insert FX			Inserts
-Map	Button M2		Insert Pre			Inserts
-Map	Button S5		Select Prev Insert FX Patch			Inserts
-Map	Button M5		Select Next Insert FX Patch			Inserts
+Map	Button Solo 1		Button 1			Inserts
+Map	Button Solo 2		Button 2			Inserts
+Map	Button Solo 3		Button 3			Inserts
+Map	Button Solo 4		Button 4			Inserts
+Map	Button Mute 1		Bypass Insert FX			Inserts
+Map	Button Mute 2		Insert Pre			Inserts
+Map	Button Solo 5		Select Prev Insert FX Patch			Inserts
+Map	Button Mute 5		Select Next Insert FX Patch			Inserts
 
 Map	Slider 1		C Ratio			Inserts
 Map	Slider 2		C Threshold			Inserts
@@ -1664,14 +1664,14 @@ Map	Slider 5		G Threshold			Inserts
 Map	Slider 6		G Release			Inserts
 Map	Slider 7		G Hold			Inserts
 
-Map	Button R1		Comp On			Inserts
-Map	Button R2		C Peak			Inserts
-Map	Button R3		C Fast Atk			Inserts
-Map	Button R4		Gate On			Inserts
-Map	Button R5		Expander			Inserts
-Map	Button R6		G Fast Atk			Inserts
-Map	Button R7		Key On			Inserts
-Map	Button R8		Dyn Post EQ			Inserts
+Map	Button Rec 1		Comp On			Inserts
+Map	Button Rec 2		C Peak			Inserts
+Map	Button Rec 3		C Fast Atk			Inserts
+Map	Button Rec 4		Gate On			Inserts
+Map	Button Rec 5		Expander			Inserts
+Map	Button Rec 6		G Fast Atk			Inserts
+Map	Button Rec 7		Key On			Inserts
+Map	Button Rec 8		Dyn Post EQ			Inserts
 
 
 Map	Knob 1		FX1 Send Level			FX Sends
@@ -1683,23 +1683,23 @@ Map	Knob 6		FX6 Send Level			FX Sends
 Map	Knob 7		FX7 Send Level			FX Sends
 Map	Knob 8		FX8 Send Level			FX Sends
 
-Map	Button S1		FX1 Send On			FX Sends
-Map	Button S2		FX2 Send On			FX Sends
-Map	Button S3		FX3 Send On			FX Sends
-Map	Button S4		FX4 Send On			FX Sends
-Map	Button S5		FX5 Send On			FX Sends
-Map	Button S6		FX6 Send On			FX Sends
-Map	Button S7		FX7 Send On			FX Sends
-Map	Button S8		FX8 Send On			FX Sends
+Map	Button Solo 1		FX1 Send On			FX Sends
+Map	Button Solo 2		FX2 Send On			FX Sends
+Map	Button Solo 3		FX3 Send On			FX Sends
+Map	Button Solo 4		FX4 Send On			FX Sends
+Map	Button Solo 5		FX5 Send On			FX Sends
+Map	Button Solo 6		FX6 Send On			FX Sends
+Map	Button Solo 7		FX7 Send On			FX Sends
+Map	Button Solo 8		FX8 Send On			FX Sends
 
-Map	Button M1		FX1 Pre Fader			FX Sends
-Map	Button M2		FX2 Pre Fader			FX Sends
-Map	Button M3		FX3 Pre Fader			FX Sends
-Map	Button M4		FX4 Pre Fader			FX Sends
-Map	Button M5		FX5 Pre Fader			FX Sends
-Map	Button M6		FX6 Pre Fader			FX Sends
-Map	Button M7		FX7 Pre Fader			FX Sends
-Map	Button M8		FX8 Pre Fader			FX Sends
+Map	Button Mute 1		FX1 Pre Fader			FX Sends
+Map	Button Mute 2		FX2 Pre Fader			FX Sends
+Map	Button Mute 3		FX3 Pre Fader			FX Sends
+Map	Button Mute 4		FX4 Pre Fader			FX Sends
+Map	Button Mute 5		FX5 Pre Fader			FX Sends
+Map	Button Mute 6		FX6 Pre Fader			FX Sends
+Map	Button Mute 7		FX7 Pre Fader			FX Sends
+Map	Button Mute 8		FX8 Pre Fader			FX Sends
 
 
 Map	Knob 1		LPF Frequency			EQ
@@ -1716,12 +1716,12 @@ Map	Slider 4		HMF Gain			EQ
 Map	Slider 5		HMF Frequency			EQ
 Map	Slider 6		HMF Q			EQ
 
-Map	Button S1		LPF On			EQ
-Map	Button S2		HPF On			EQ
-Map	Button S3		LF Bell			EQ
-Map	Button S5		HF Bell			EQ
-Map	Button M1		EQ On			EQ
-Map	Button M2		EQ E Mode			EQ
+Map	Button Solo 1		LPF On			EQ
+Map	Button Solo 2		HPF On			EQ
+Map	Button Solo 3		LF Bell			EQ
+Map	Button Solo 5		HF Bell			EQ
+Map	Button Mute 1		EQ On			EQ
+Map	Button Mute 2		EQ E Mode			EQ
 
 
 
@@ -1731,8 +1731,8 @@ Scope	Propellerheads	Reason Essentials Main Mixer Channel
 
 Map	Knob 8		Pan
 Map	Slider 8		Level
-Map	Button M8		Mute
-Map	Button S8		Solo
+Map	Button Mute 8		Mute
+Map	Button Solo 8		Solo
 
 Map	Knob 1		Rotary 1
 Map	Knob 2		Rotary 2
@@ -1740,15 +1740,15 @@ Map	Knob 3		Rotary 3
 Map	Knob 4		Rotary 4
 
 Map	Knob 7		Input Gain
-Map	Button S7		Invert Phase
+Map	Button Solo 7		Invert Phase
 
-Map	Button S1		Button 1
-Map	Button S2		Button 2
-Map	Button S3		Button 3
-Map	Button S4		Button 4
-Map	Button S5		Bypass Insert FX
-Map	Button S6		Select Prev Insert FX Patch
-Map	Button M6		Select Next Insert FX Patch
+Map	Button Solo 1		Button 1
+Map	Button Solo 2		Button 2
+Map	Button Solo 3		Button 3
+Map	Button Solo 4		Button 4
+Map	Button Solo 5		Bypass Insert FX
+Map	Button Solo 6		Select Prev Insert FX Patch
+Map	Button Mute 6		Select Next Insert FX Patch
 
 
 Map	Slider 1		FX1 Send Level
@@ -1756,15 +1756,15 @@ Map	Slider 2		FX2 Send Level
 Map	Slider 3		FX3 Send Level
 Map	Slider 4		FX4 Send Level
 
-Map	Button R1		FX1 Send On
-Map	Button R2		FX2 Send On
-Map	Button R3		FX3 Send On
-Map	Button R4		FX4 Send On
+Map	Button Rec 1		FX1 Send On
+Map	Button Rec 2		FX2 Send On
+Map	Button Rec 3		FX3 Send On
+Map	Button Rec 4		FX4 Send On
 
-Map	Button M1		FX1 Pre Fader
-Map	Button M2		FX2 Pre Fader
-Map	Button M3		FX3 Pre Fader
-Map	Button M4		FX4 Pre Fader
+Map	Button Mute 1		FX1 Pre Fader
+Map	Button Mute 2		FX2 Pre Fader
+Map	Button Mute 3		FX3 Pre Fader
+Map	Button Mute 4		FX4 Pre Fader
 
 
 Map	Slider 5		LF Gain
@@ -1773,9 +1773,9 @@ Map	Knob 5		LF Frequency
 Map	Knob 6		HF Frequency
 
 
-Map	Button R5		LF Bell
-Map	Button R6		HF Bell
-Map	Button M5		EQ On
+Map	Button Rec 5		LF Bell
+Map	Button Rec 6		HF Bell
+Map	Button Mute 5		EQ On
 
 
 
@@ -1810,32 +1810,32 @@ Map	Knob 6		Channel 6 Pan			Channels
 Map	Knob 7		Channel 7 Pan			Channels
 Map	Knob 8		Channel 8 Pan			Channels
 
-Map	Button S1		Channel 1 Solo			Channels
-Map	Button S2		Channel 2 Solo			Channels
-Map	Button S3		Channel 3 Solo			Channels
-Map	Button S4		Channel 4 Solo			Channels
-Map	Button S5		Channel 5 Solo			Channels
-Map	Button S6		Channel 6 Solo			Channels
-Map	Button S7		Channel 7 Solo			Channels
-Map	Button S8		Channel 8 Solo			Channels
+Map	Button Solo 1		Channel 1 Solo			Channels
+Map	Button Solo 2		Channel 2 Solo			Channels
+Map	Button Solo 3		Channel 3 Solo			Channels
+Map	Button Solo 4		Channel 4 Solo			Channels
+Map	Button Solo 5		Channel 5 Solo			Channels
+Map	Button Solo 6		Channel 6 Solo			Channels
+Map	Button Solo 7		Channel 7 Solo			Channels
+Map	Button Solo 8		Channel 8 Solo			Channels
 
-Map	Button M1		Channel 1 Mute			Channels
-Map	Button M2		Channel 2 Mute			Channels
-Map	Button M3		Channel 3 Mute			Channels
-Map	Button M4		Channel 4 Mute			Channels
-Map	Button M5		Channel 5 Mute			Channels
-Map	Button M6		Channel 6 Mute			Channels
-Map	Button M7		Channel 7 Mute			Channels
-Map	Button M8		Channel 8 Mute			Channels
+Map	Button Mute 1		Channel 1 Mute			Channels
+Map	Button Mute 2		Channel 2 Mute			Channels
+Map	Button Mute 3		Channel 3 Mute			Channels
+Map	Button Mute 4		Channel 4 Mute			Channels
+Map	Button Mute 5		Channel 5 Mute			Channels
+Map	Button Mute 6		Channel 6 Mute			Channels
+Map	Button Mute 7		Channel 7 Mute			Channels
+Map	Button Mute 8		Channel 8 Mute			Channels
 
-Map	Button R1		Channel 1 Bypass Insert FX			Channels
-Map	Button R2		Channel 2 Bypass Insert FX			Channels
-Map	Button R3		Channel 3 Bypass Insert FX			Channels
-Map	Button R4		Channel 4 Bypass Insert FX			Channels
-Map	Button R5		Channel 5 Bypass Insert FX			Channels
-Map	Button R6		Channel 6 Bypass Insert FX			Channels
-Map	Button R7		Channel 7 Bypass Insert FX			Channels
-Map	Button R8		Channel 8 Bypass Insert FX			Channels
+Map	Button Rec 1		Channel 1 Bypass Insert FX			Channels
+Map	Button Rec 2		Channel 2 Bypass Insert FX			Channels
+Map	Button Rec 3		Channel 3 Bypass Insert FX			Channels
+Map	Button Rec 4		Channel 4 Bypass Insert FX			Channels
+Map	Button Rec 5		Channel 5 Bypass Insert FX			Channels
+Map	Button Rec 6		Channel 6 Bypass Insert FX			Channels
+Map	Button Rec 7		Channel 7 Bypass Insert FX			Channels
+Map	Button Rec 8		Channel 8 Bypass Insert FX			Channels
 
 
 
@@ -1854,23 +1854,23 @@ Map	Knob 7		Release			Master
 Map	Knob 8		Make-Up Gain			Master
 Map	Slider 8		Master Level			Master
 
-Map	Button S1		Button 1			Master
-Map	Button S2		Button 2			Master
-Map	Button S3		Button 3			Master
-Map	Button S4		Button 4			Master
-Map	Button S5		Compressor On			Master
-Map	Button S6		Ratio			Master
-Map	Button S7		All Mutes Off			Master
-Map	Button S8		All Solo Off			Master
+Map	Button Solo 1		Button 1			Master
+Map	Button Solo 2		Button 2			Master
+Map	Button Solo 3		Button 3			Master
+Map	Button Solo 4		Button 4			Master
+Map	Button Solo 5		Compressor On			Master
+Map	Button Solo 6		Ratio			Master
+Map	Button Solo 7		All Mutes Off			Master
+Map	Button Solo 8		All Solo Off			Master
 
-Map	Button R1		Bypass Insert FX			Master
-Map	Button R3		Select Prev Insert FX Patch			Master
-Map	Button R4		Select Next Insert FX Patch			Master
+Map	Button Rec 1		Bypass Insert FX			Master
+Map	Button Rec 3		Select Prev Insert FX Patch			Master
+Map	Button Rec 4		Select Next Insert FX Patch			Master
 
-Map	Button M1		FX1 Mute			Master
-Map	Button M2		FX2 Mute			Master
-Map	Button M3		FX3 Mute			Master
-Map	Button M4		FX4 Mute			Master
+Map	Button Mute 1		FX1 Mute			Master
+Map	Button Mute 2		FX2 Mute			Master
+Map	Button Mute 3		FX3 Mute			Master
+Map	Button Mute 4		FX4 Mute			Master
 
 
 //<	20110628
@@ -1881,19 +1881,19 @@ Map	Set Marker Button		Variation=Var1			Var0
 Map	Set Marker Button		Variation=Var2			Var1
 Map	Set Marker Button		Variation=Var0			Var2
 
-Map	Button M8		Select Next Patch
-Map	Button S8		Select Previous Patch
-Map	Button S1		Pattern Enable
-Map	Button S2		Gate 1 Trig
-Map	Button M2		Gate 2 Trig
-Map	Button R2		Gate 3 Trig
-Map	Button M1		Shuffle
-Map	Button S3		High Pass Filter On
-Map	Button M3		Band Pass Filter On
-Map	Button R3		Low Pass Filter On
-Map	Button R4		LFOSync
-Map	Button R5		DelaySync
-Map	Button R1		Enabled
+Map	Button Mute 8		Select Next Patch
+Map	Button Solo 8		Select Previous Patch
+Map	Button Solo 1		Pattern Enable
+Map	Button Solo 2		Gate 1 Trig
+Map	Button Mute 2		Gate 2 Trig
+Map	Button Rec 2		Gate 3 Trig
+Map	Button Mute 1		Shuffle
+Map	Button Solo 3		High Pass Filter On
+Map	Button Mute 3		Band Pass Filter On
+Map	Button Rec 3		Low Pass Filter On
+Map	Button Rec 4		LFOSync
+Map	Button Rec 5		DelaySync
+Map	Button Rec 1		Enabled
 Map	Knob 4		Pattern
 Map	Knob 5		Resolution			Var1
 Map	Knob 6		Shift			Var1
@@ -1949,13 +1949,13 @@ Define Group	Variation	Var0	Var1
 Map	Set Marker Button		Variation=Var0			Var1
 Map	Set Marker Button		Variation=Var1			Var0
 
-Map	Button M8		Select Next Patch
-Map	Button S8		Select Previous Patch
-Map	Button R1		Routing
-Map	Button R2		Follower Trig
-Map	Button R3		Sync
-Map	Button R4		Tremor Spread
-Map	Button R5		Enabled
+Map	Button Mute 8		Select Next Patch
+Map	Button Solo 8		Select Previous Patch
+Map	Button Rec 1		Routing
+Map	Button Rec 2		Follower Trig
+Map	Button Rec 3		Sync
+Map	Button Rec 4		Tremor Spread
+Map	Button Rec 5		Enabled
 Map	Slider 1		Squash
 Map	Slider 2		Dirt
 Map	Slider 3		Filter Frequency
@@ -1983,15 +1983,15 @@ Define Group	Variation	Var0	Var1
 Map	Set Marker Button		Variation=Var0			Var1
 Map	Set Marker Button		Variation=Var1			Var0
 
-Map	Button M8		Select Next Patch
-Map	Button S8		Select Previous Patch
-Map	Button R1		Trig
-Map	Button R2		Keep Pitch
-Map	Button R3		Sync
-Map	Button R4		Ping-Pong Mode
-Map	Button R5		Diffuse On
-Map	Button R6		Filter On
-Map	Button R7		Enabled
+Map	Button Mute 8		Select Next Patch
+Map	Button Solo 8		Select Previous Patch
+Map	Button Rec 1		Trig
+Map	Button Rec 2		Keep Pitch
+Map	Button Rec 3		Sync
+Map	Button Rec 4		Ping-Pong Mode
+Map	Button Rec 5		Diffuse On
+Map	Button Rec 6		Filter On
+Map	Button Rec 7		Enabled
 Map	Slider 1		Roll Enabled			Var1
 Map	Knob 1		Input Mode
 Map	Slider 1		Delay Time
@@ -2016,8 +2016,8 @@ Map	Knob 8		Dry/Wet Balance
 
 Scope	Propellerhead Software	se.propellerheads.radicalpiano
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
-Map	Button M8		Select Next Patch
-Map	Button S8		Select Previous Patch
+Map	Button Mute 8		Select Next Patch
+Map	Button Solo 8		Select Previous Patch
 
 Map	Knob 1		Character
 Map	Knob 2		Microphone 1 Type
@@ -2037,5 +2037,5 @@ Map	Slider 6		Ambience Level
 Map	Slider 7		Stereo Width
 Map	Slider 8		Master Volume
 
-Map	Button R1		EQ On/Off
-Map	Button R2		Ambience Type
+Map	Button Rec 1		EQ On/Off
+Map	Button Rec 2		Ambience Type
