@@ -251,9 +251,9 @@ end
 
 function remote_probe()
 return {
-    request="f0 7e 7f 06 01 f7",
-    response="F0 7E 00 06 02 42 13 01 00 00 ?? ?? ?? ?? F7"
-    }
+	request="f0 7e 7f 06 01 f7",
+	response="f0 7e 00 06 02 42 37 01 00 00 ?? ?? ?? ?? f7"
+	}
 end
 
 function remote_prepare_for_use()
