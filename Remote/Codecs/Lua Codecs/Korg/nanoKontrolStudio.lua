@@ -9,23 +9,27 @@
 --  - Modified for use with nanKontrol Studio
 
 --position of first analog control in the items table
-gFirstAnalogIndex = 12
+gFirstAnalogIndex = 14
 
 function remote_init()
 local items=
  {
-  {name="Rew Button", input="button", output="value"},
-  {name="FFW Button", input="button", output="value"},
-  {name="Stop Button", input="button", output="value"},
-  {name="Play Button", input="button", output="value"},
-  {name="Rec Button", input="button", output="value"},
-
-  {name="Prev Track Button", input="button", output="value"},
-  {name="Next Track Button", input="button", output="value"},
   {name="Cycle Button", input="button", output="value"},
   {name="Set Marker Button", input="button", output="value"},
   {name="Left Marker Button", input="button", output="value"},
   {name="Right Marker Button", input="button", output="value"},
+  
+  {name="Rew Button", input="button", output="value"},
+  {name="FFW Button", input="button", output="value"},
+  {name="Prev Track Button", input="button", output="value"},
+  {name="Next Track Button", input="button", output="value"},
+
+  {name="Return To Zero Button", input="button", output="value"},
+  {name="Stop Button", input="button", output="value"},
+  {name="Play Button", input="button", output="value"},
+  {name="Rec Button", input="button", output="value"},
+
+  {name="Wheel", input="delta"},
 
   {name="Knob 1", input="value", output="value", min=0, max=127},
   {name="Knob 2", input="value", output="value", min=0, max=127},
@@ -71,23 +75,36 @@ local items=
   {name="Button R6", input="button", output="value"},
   {name="Button R7", input="button", output="value"},
   {name="Button R8", input="button", output="value"},
+  
+  {name="Button Select1", input="button", output="value"},
+  {name="Button Select2", input="button", output="value"},
+  {name="Button Select3", input="button", output="value"},
+  {name="Button Select4", input="button", output="value"},
+  {name="Button Select5", input="button", output="value"},
+  {name="Button Select6", input="button", output="value"},
+  {name="Button Select7", input="button", output="value"},
+  {name="Button Select8", input="button", output="value"},
  }
 remote.define_items(items)
 
 local inputs=
  {
-  {pattern="b? 2b xx", name="Rew Button", value="x/127"},
-  {pattern="b? 2c xx", name="FFW Button", value="x/127"},
-  {pattern="b? 2a xx", name="Stop Button", value="x/127"},
-  {pattern="b? 29 xx", name="Play Button", value="x/127"},
-  {pattern="b? 2d xx", name="Rec Button", value="x/127"},
-
-  {pattern="b? 3a xx", name="Prev Track Button", value="x/127"},
-  {pattern="b? 3b xx", name="Next Track Button", value="x/127"},
   {pattern="b? 2e xx", name="Cycle Button", value="x/127"},
   {pattern="b? 3c xx", name="Set Marker Button", value="x/127"},
   {pattern="b? 3d xx", name="Left Marker Button", value="x/127"},
   {pattern="b? 3e xx", name="Right Marker Button", value="x/127"},
+  
+  {pattern="b? 3a xx", name="Prev Track Button", value="x/127"},
+  {pattern="b? 3b xx", name="Next Track Button", value="x/127"},
+  {pattern="b? 2b xx", name="Rew Button", value="x/127"},
+  {pattern="b? 2c xx", name="FFW Button", value="x/127"},
+  
+  {pattern="b? 2f xx", name="Return To Zero Button", value="x/127"},
+  {pattern="b? 2a xx", name="Stop Button", value="x/127"},
+  {pattern="b? 29 xx", name="Play Button", value="x/127"},
+  {pattern="b? 2d xx", name="Rec Button", value="x/127"},
+
+  {pattern="bf 6e <?yxx><xxxx>", name="Wheel", value="(1-2*y)"},
 
   -- {pattern="bf 10 xx", name="Knob 1"},
   -- {pattern="bf 11 xx", name="Knob 2"},
@@ -133,23 +150,35 @@ local inputs=
   {pattern="bf 45 xx", name="Button R6", value="x/127"},
   {pattern="bf 46 xx", name="Button R7", value="x/127"},
   {pattern="bf 47 xx", name="Button R8", value="x/127"},
- }
+
+  {pattern="bf 50 xx", name="Button Select1", value="x/127"},
+  {pattern="bf 51 xx", name="Button Select2", value="x/127"},
+  {pattern="bf 52 xx", name="Button Select3", value="x/127"},
+  {pattern="bf 53 xx", name="Button Select4", value="x/127"},
+  {pattern="bf 54 xx", name="Button Select5", value="x/127"},
+  {pattern="bf 55 xx", name="Button Select6", value="x/127"},
+  {pattern="bf 56 xx", name="Button Select7", value="x/127"},
+  {pattern="bf 57 xx", name="Button Select8", value="x/127"},
+}
  remote.define_auto_inputs(inputs)
 
 local outputs =
     {
-        {name="Rew Button", pattern="bf 2b xx", x="127*value"},
-        {name="FFW Button", pattern="bf 2c xx", x="127*value"},
-        {name="Stop Button", pattern="bf 2a xx", x="127*value"},
-        {name="Play Button", pattern="bf 29 xx", x="127*value"},
-        {name="Rec Button", pattern="bf 2d xx", x="127*value"},
-
-        {name="Prev Track Button", pattern="bf 3a xx", x="127*value"},
-        {name="Next Track Button", pattern="bf 3b xx", x="127*value"},
         {name="Cycle Button", pattern="bf 2e xx", x="127*value"},
         {name="Set Marker Button", pattern="bf 3c xx", x="127*value"},
         {name="Left Marker Button", pattern="bf 3d xx", x="127*value"},
         {name="Right Marker Button", pattern="bf 3e xx", x="127*value"},
+	
+        {name="Prev Track Button", pattern="bf 3a xx", x="127*value"},
+        {name="Next Track Button", pattern="bf 3b xx", x="127*value"},
+        {name="Rew Button", pattern="bf 2b xx", x="127*value"},
+        {name="FFW Button", pattern="bf 2c xx", x="127*value"},
+	
+        {name="Return To Zero Button", pattern="bf 2f xx", x="127*value"},
+        {name="Stop Button", pattern="bf 2a xx", x="127*value"},
+        {name="Play Button", pattern="bf 29 xx", x="127*value"},
+        {name="Rec Button", pattern="bf 2d xx", x="127*value"},
+
 
         {name="Button S1", pattern="bf 20 xx", x="127*value"},
         {name="Button S2", pattern="bf 21 xx", x="127*value"},
@@ -177,6 +206,15 @@ local outputs =
         {name="Button R6", pattern="bf 45 xx", x="127*value"},
         {name="Button R7", pattern="bf 46 xx", x="127*value"},
         {name="Button R8", pattern="bf 47 xx", x="127*value"},
+
+        {name="Button Select1", pattern="bf 50 xx", x="127*value"},
+        {name="Button Select2", pattern="bf 51 xx", x="127*value"},
+        {name="Button Select3", pattern="bf 52 xx", x="127*value"},
+        {name="Button Select4", pattern="bf 53 xx", x="127*value"},
+        {name="Button Select5", pattern="bf 54 xx", x="127*value"},
+        {name="Button Select6", pattern="bf 55 xx", x="127*value"},
+        {name="Button Select7", pattern="bf 56 xx", x="127*value"},
+        {name="Button Select8", pattern="bf 57 xx", x="127*value"},
     }
  remote.define_auto_outputs(outputs)
 end
