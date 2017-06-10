@@ -1,9 +1,12 @@
--- Korg nanoKontrol2 Lua Codec
+-- Korg nanoKontrol Studio Lua Codec
 -- Propellerhead Software
 -- Carlos Eduardo, 2015
 -- Version 1.0
 --  - 16/06/2015
 --  - Updated stock script to support soft pickup for the sliders and knobs.
+-- Magnus Hulthen, 2017
+--  - 08/06/2017
+--  - Modified for use with nanKontrol Studio
 
 --position of first analog control in the items table
 gFirstAnalogIndex = 12
@@ -257,7 +260,7 @@ return {
 end
 
 function remote_prepare_for_use()
--- Sets the nanoKontrol2 to Native Mode
+-- Sets the nanoKontrol Studio to Native Mode
     local retEvents={
         remote.make_midi("f0 42 40 00 01 37 02 00 00 00 01 f7"),
     }
