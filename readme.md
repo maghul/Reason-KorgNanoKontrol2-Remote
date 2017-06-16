@@ -8,6 +8,8 @@ This is a clone of carlosdp/Reason-KorgNanoKontrol2-Remote repository adapted to
 
 This version includes soft pickup for the knobs and sliders. This way the analog controls only act when the value on the knob matches the value of the control it is assigned so it is prevented that the control "jumps" when you modify a knob.
 
+The channel select buttons are not mapped to anything yet.
+
 # Installation
 
 ## Part 1 - Copy the Remote Files
